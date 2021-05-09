@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8"> 
+        <title>Contact-me</title>
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+        <h1>Veuillez remplir ces champs</h1>
+
+        <form class="" action="mailto:gbigbi21041989@gmail.com" method="post" enctype="text/plain">
+                <label for="name">Firstname</label>
+                <input placeholder="ex: Houlouwolo Pierre" type="text" name="name" value=""><br>
+                <label for="prenoms">Lastname</label>
+                <input placeholder="ex: Bamba" type="text" name="prenoms" id="prenoms" value=""><br>
+                <label for="dates">Date de naissance</label>
+                <input placeholder="ex: 21/04/2021" type="date" name="dates" id="dates" value=""><br>
+                <label for="Email">Email</label>
+                <input placeholder="ex: dada@nogaty.gn" type="email" name="mail" id="mail" value=""><br>
+                <label for="Tel">Téléphone</label>
+                <input placeholder="ex: +212644249871" type="tel" name="tel" id="tel" value=""><br>
+            <h3>Genre</h3>
+                <input type="radio" name="sexe" id="sexe">
+                <label for="homme">Homme</label><br>
+                <input type="radio" name="sexe" id="sexe">
+                <label for="femme">Femme</label><br>
+            </p>
+            <h3>Veuillez choisir votre pays d'origine</h3>
+            <select name="pays" id="pays">
+                <option value=""></option>
+                <option value="Guinée">Guinée</option>
+                <option value="Maroc">Maroc</option>
+                <option value="France">France</option>
+                <option value="Canada">Canada</option>
+            </select>
+            <h3>Veuillez choisir les departements qui vous intéresse</h3>
+            <p>
+                <input type="checkbox" name="Nogaty Corporate" id="">
+                <label for="Nogaty Corporate">Nogaty Corporate</label>
+                <input type="checkbox" name="Nogaty Quantum" id="">
+                <label for="Nogaty Corporate">Nogaty Quantum</label>
+                <input type="checkbox" name="Nogaty Zion Space" id="">
+                <label for="Nogaty Corporate">Nogaty Zion Space</label>
+                <input type="checkbox" name="Nogaty Luxurure" id="">
+                <label for="Nogaty Corporate">Nogaty Luxurure</label>
+                <input type="checkbox" name="Nogaty beauty" id="">
+                <label for="Nogaty Corporate">Nogaty beauty</label>
+                <input type="checkbox" name="Nogaty Habitation" id="">
+                <label for="Nogaty Corporate">Nogaty Habitation</label>
+                <input type="checkbox" name="Nogaty Foundation" id="">
+                <label for="Nogaty Corporate">Nogaty Foundation</label>
+            </p>
+            <h3>Importer une pièce d'identité</h3>
+            <input type="file" name="" id=""><br>
+            <h3>Descriptif du message</h3><br>
+            <textarea name="Messages" id="" cols="30" rows="5"></textarea>
+            <p>
+                <input type="reset" value="Reset">
+                <input type="submit" value="Submit">
+            </p>
+        </form>
+    </body>
+</html>

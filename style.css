@@ -1,0 +1,15 @@
+body {
+    margin: 0px;
+    padding: 0px;
+    background-color: beige;
+}
+img {
+    margin: 10px;
+}
+#table,th,td{
+#    border: 1px solid black;
+#}
+thead{
+    background-color:goldenrod;
+
+}
